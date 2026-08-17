@@ -1,5 +1,5 @@
 import subprocess
 
-user_input = input("Enter command: ")
+user_input = input("Enter text: ")
 
-subprocess.call(user_input, shell=True)
+print("You entered:", user_input)
