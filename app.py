@@ -1,7 +1,5 @@
-def calculate():
-    user_input = input("Enter expression:  ")
-    result = eval(user_input)
-    print("Result:", result)
+import subprocess
 
-if __name__ == "__main__":
-    calculate()
+user_input = input("Enter command: ")
+
+subprocess.call(user_input, shell=True)
