@@ -1,5 +1,5 @@
 def calculate():
-    user_input = input("Enter expression: ")
+    user_input = input("Enter expression:  ")
     result = eval(user_input)
     print("Result:", result)
 
